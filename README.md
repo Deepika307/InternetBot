@@ -94,9 +94,9 @@ src/test/resources/config.properties
 
 Example:
 
-browser=chrome
-baseUrl=https://the-internet.herokuapp.com
-timeout=10
+-browser=chrome
+-baseUrl=https://the-internet.herokuapp.com
+-timeout=10
 
 
 ---
