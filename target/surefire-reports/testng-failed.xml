@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Internet Hackathon Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.srm.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Alert Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.tests.AlertTests">
+        <methods>
+          <include name="verifyJsAlertAcceptsAndShowsSuccessMessage"/>
+          <include name="setUp"/>
+          <include name="verifyJsConfirmDismissShowsDismissedMessage"/>
+          <include name="verifyResultTextUpdatesAcrossDifferentAlertTypes"/>
+          <include name="verifyJsPromptAcceptsTextAndDisplaysIt"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.tests.AlertTests -->
+    </classes>
+  </test> <!-- Alert Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Authentication Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.tests.AuthenticationTests">
+        <methods>
+          <include name="verifyFormAuthenticationScenarios"/>
+          <include name="setUp"/>
+          <include name="verifyBasicAuthenticationWorks"/>
+          <include name="verifyLogoutRedirectsBackToLoginPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.tests.AuthenticationTests -->
+    </classes>
+  </test> <!-- Authentication Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Upload Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.tests.FileUploadTests">
+        <methods>
+          <include name="verifyUploadPageTitleAndFormVisibility"/>
+          <include name="verifyUnsupportedFileTypeIsHandledGracefully"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySupportedFileUploadDisplaysUploadedFilename"/>
+        </methods>
+      </class> <!-- com.srm.tests.FileUploadTests -->
+    </classes>
+  </test> <!-- Upload Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Checkbox and Dropdown Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.tests.CheckboxDropdownTests">
+        <methods>
+          <include name="verifyCheckboxTwoCanBeToggledAndReverified"/>
+          <include name="verifyHoverInteractionRevealsCaption"/>
+          <include name="verifyDropdownSelectionAndOptionCount"/>
+          <include name="setUp"/>
+          <include name="verifyCheckboxOneCanBeCheckedAndUnchecked"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.tests.CheckboxDropdownTests -->
+    </classes>
+  </test> <!-- Checkbox and Dropdown Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Broken Elements Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.tests.BrokenElementsTests">
+        <methods>
+          <include name="verifyBrokenImagesCanBeDetected"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.tests.BrokenElementsTests -->
+    </classes>
+  </test> <!-- Broken Elements Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Dynamic Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.tests.DynamicLoadingTests">
+        <methods>
+          <include name="verifyDynamicLoadingDisplaysExpectedMessage"/>
+          <include name="setUp"/>
+          <include name="verifyDynamicContentSectionLoadsContentBlocks"/>
+          <include name="tearDown"/>
+          <include name="verifyDisappearingElementMenuLoadsAfterRefresh"/>
+        </methods>
+      </class> <!-- com.srm.tests.DynamicLoadingTests -->
+    </classes>
+  </test> <!-- Dynamic Tests(failed) -->
+</suite> <!-- Failed suite [Internet Hackathon Suite] -->

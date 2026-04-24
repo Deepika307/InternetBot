@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Internet_Hackathon_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Internet Hackathon Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span>E:\eclipse\eclipse\InternetBot\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Internet_Hackathon_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 2 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Internet_Hackathon_Suite" class="hide-methods failed suite-Internet_Hackathon_Suite"> (hide)</a> <!-- hide-methods failed suite-Internet_Hackathon_Suite -->
+                      <a href="#" panel-name="suite-Internet_Hackathon_Suite" class="show-methods failed suite-Internet_Hackathon_Suite"> (show)</a> <!-- show-methods failed suite-Internet_Hackathon_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Internet_Hackathon_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.DynamicLoadingTests" class="method navigator-link" hash-for-method="verifyDynamicContentSectionLoadsContentBlocks">verifyDynamicContentSectionLoadsContentBlocks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.FileUploadTests" class="method navigator-link" hash-for-method="verifySupportedFileUploadDisplaysUploadedFilename">verifySupportedFileUploadDisplaysUploadedFilename</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Internet_Hackathon_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Internet_Hackathon_Suite" class="hide-methods passed suite-Internet_Hackathon_Suite"> (hide)</a> <!-- hide-methods passed suite-Internet_Hackathon_Suite -->
+                      <a href="#" panel-name="suite-Internet_Hackathon_Suite" class="show-methods passed suite-Internet_Hackathon_Suite"> (show)</a> <!-- show-methods passed suite-Internet_Hackathon_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Internet_Hackathon_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyBasicAuthenticationWorks">verifyBasicAuthenticationWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.BrokenElementsTests" class="method navigator-link" hash-for-method="verifyBrokenImagesCanBeDetected">verifyBrokenImagesCanBeDetected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.CheckboxDropdownTests" class="method navigator-link" hash-for-method="verifyCheckboxOneCanBeCheckedAndUnchecked">verifyCheckboxOneCanBeCheckedAndUnchecked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.CheckboxDropdownTests" class="method navigator-link" hash-for-method="verifyCheckboxTwoCanBeToggledAndReverified">verifyCheckboxTwoCanBeToggledAndReverified</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.DynamicLoadingTests" class="method navigator-link" hash-for-method="verifyDisappearingElementMenuLoadsAfterRefresh">verifyDisappearingElementMenuLoadsAfterRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.CheckboxDropdownTests" class="method navigator-link" hash-for-method="verifyDropdownSelectionAndOptionCount">verifyDropdownSelectionAndOptionCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.DynamicLoadingTests" class="method navigator-link" hash-for-method="verifyDynamicLoadingDisplaysExpectedMessage">verifyDynamicLoadingDisplaysExpectedMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyFormAuthenticationScenarios(invaliduser, InvalidPassword!, false)">verifyFormAuthenticationScenarios(invaliduser, InvalidPassword!, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyFormAuthenticationScenarios(tomsmith, SuperSecretPassword!, true)">verifyFormAuthenticationScenarios(tomsmith, SuperSecretPassword!, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.CheckboxDropdownTests" class="method navigator-link" hash-for-method="verifyHoverInteractionRevealsCaption">verifyHoverInteractionRevealsCaption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AlertTests" class="method navigator-link" hash-for-method="verifyJsAlertAcceptsAndShowsSuccessMessage">verifyJsAlertAcceptsAndShowsSuccessMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AlertTests" class="method navigator-link" hash-for-method="verifyJsConfirmDismissShowsDismissedMessage">verifyJsConfirmDismissShowsDismissedMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AlertTests" class="method navigator-link" hash-for-method="verifyJsPromptAcceptsTextAndDisplaysIt">verifyJsPromptAcceptsTextAndDisplaysIt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyLogoutRedirectsBackToLoginPage">verifyLogoutRedirectsBackToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.AlertTests" class="method navigator-link" hash-for-method="verifyResultTextUpdatesAcrossDifferentAlertTypes">verifyResultTextUpdatesAcrossDifferentAlertTypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.FileUploadTests" class="method navigator-link" hash-for-method="verifyUnsupportedFileTypeIsHandledGracefully">verifyUnsupportedFileTypeIsHandledGracefully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Internet_Hackathon_Suite" title="com.srm.tests.FileUploadTests" class="method navigator-link" hash-for-method="verifyUploadPageTitleAndFormVisibility">verifyUploadPageTitleAndFormVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Internet_Hackathon_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Internet_Hackathon_Suite" class="panel Internet_Hackathon_Suite">
+          <div class="suite-Internet_Hackathon_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.srm.tests.DynamicLoadingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDynamicContentSectionLoadsContentBlocks">
+                  </a> <!-- verifyDynamicContentSectionLoadsContentBlocks -->
+                  <span class="method-name">verifyDynamicContentSectionLoadsContentBlocks</span>
+                  <div class="stack-trace">java.lang.AssertionError: Dynamic content page should render three content blocks. expected [3] but found [1]
+	at com.srm.tests.DynamicLoadingTests.verifyDynamicContentSectionLoadsContentBlocks(DynamicLoadingTests.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-failed -->
+          <div class="suite-Internet_Hackathon_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.srm.tests.FileUploadTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySupportedFileUploadDisplaysUploadedFilename">
+                  </a> <!-- verifySupportedFileUploadDisplaysUploadedFilename -->
+                  <span class="method-name">verifySupportedFileUploadDisplaysUploadedFilename</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=147.0.7727.103)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7769f8391dd91ab47a55f3ef97915190, clickElement {id=f.10767BDEB3A0F189047B721D5A8F4D3F.d.7947B59340F2A50303132479C6E49B3B.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.103, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56464}, goog:processID: 26204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56464/devtoo..., se:cdpVersion: 147.0.7727.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7769f8391dd91ab47a55f3ef97915190)] -&gt; id: file-upload]
+Session ID: 7769f8391dd91ab47a55f3ef97915190
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.srm.pages.BasePage.click(BasePage.java:46)
+	at com.srm.pages.UploadPage.uploadFile(UploadPage.java:33)
+	at com.srm.tests.FileUploadTests.verifySupportedFileUploadDisplaysUploadedFilename(FileUploadTests.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-failed -->
+          <div class="suite-Internet_Hackathon_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.tests.AlertTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJsAlertAcceptsAndShowsSuccessMessage">
+                  </a> <!-- verifyJsAlertAcceptsAndShowsSuccessMessage -->
+                  <span class="method-name">verifyJsAlertAcceptsAndShowsSuccessMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJsConfirmDismissShowsDismissedMessage">
+                  </a> <!-- verifyJsConfirmDismissShowsDismissedMessage -->
+                  <span class="method-name">verifyJsConfirmDismissShowsDismissedMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJsPromptAcceptsTextAndDisplaysIt">
+                  </a> <!-- verifyJsPromptAcceptsTextAndDisplaysIt -->
+                  <span class="method-name">verifyJsPromptAcceptsTextAndDisplaysIt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResultTextUpdatesAcrossDifferentAlertTypes">
+                  </a> <!-- verifyResultTextUpdatesAcrossDifferentAlertTypes -->
+                  <span class="method-name">verifyResultTextUpdatesAcrossDifferentAlertTypes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-passed -->
+          <div class="suite-Internet_Hackathon_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.tests.DynamicLoadingTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisappearingElementMenuLoadsAfterRefresh">
+                  </a> <!-- verifyDisappearingElementMenuLoadsAfterRefresh -->
+                  <span class="method-name">verifyDisappearingElementMenuLoadsAfterRefresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDynamicLoadingDisplaysExpectedMessage">
+                  </a> <!-- verifyDynamicLoadingDisplaysExpectedMessage -->
+                  <span class="method-name">verifyDynamicLoadingDisplaysExpectedMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-passed -->
+          <div class="suite-Internet_Hackathon_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.tests.BrokenElementsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrokenImagesCanBeDetected">
+                  </a> <!-- verifyBrokenImagesCanBeDetected -->
+                  <span class="method-name">verifyBrokenImagesCanBeDetected</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-passed -->
+          <div class="suite-Internet_Hackathon_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.tests.FileUploadTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsupportedFileTypeIsHandledGracefully">
+                  </a> <!-- verifyUnsupportedFileTypeIsHandledGracefully -->
+                  <span class="method-name">verifyUnsupportedFileTypeIsHandledGracefully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUploadPageTitleAndFormVisibility">
+                  </a> <!-- verifyUploadPageTitleAndFormVisibility -->
+                  <span class="method-name">verifyUploadPageTitleAndFormVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-passed -->
+          <div class="suite-Internet_Hackathon_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.tests.CheckboxDropdownTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckboxOneCanBeCheckedAndUnchecked">
+                  </a> <!-- verifyCheckboxOneCanBeCheckedAndUnchecked -->
+                  <span class="method-name">verifyCheckboxOneCanBeCheckedAndUnchecked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckboxTwoCanBeToggledAndReverified">
+                  </a> <!-- verifyCheckboxTwoCanBeToggledAndReverified -->
+                  <span class="method-name">verifyCheckboxTwoCanBeToggledAndReverified</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropdownSelectionAndOptionCount">
+                  </a> <!-- verifyDropdownSelectionAndOptionCount -->
+                  <span class="method-name">verifyDropdownSelectionAndOptionCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHoverInteractionRevealsCaption">
+                  </a> <!-- verifyHoverInteractionRevealsCaption -->
+                  <span class="method-name">verifyHoverInteractionRevealsCaption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-passed -->
+          <div class="suite-Internet_Hackathon_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.tests.AuthenticationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBasicAuthenticationWorks">
+                  </a> <!-- verifyBasicAuthenticationWorks -->
+                  <span class="method-name">verifyBasicAuthenticationWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFormAuthenticationScenarios(invaliduser, InvalidPassword!, false)">
+                  </a> <!-- verifyFormAuthenticationScenarios(invaliduser, InvalidPassword!, false) -->
+                  <span class="method-name">verifyFormAuthenticationScenarios</span>
+                  <span class="parameters">(invaliduser,InvalidPassword!,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFormAuthenticationScenarios(tomsmith, SuperSecretPassword!, true)">
+                  </a> <!-- verifyFormAuthenticationScenarios(tomsmith, SuperSecretPassword!, true) -->
+                  <span class="method-name">verifyFormAuthenticationScenarios</span>
+                  <span class="parameters">(tomsmith,SuperSecretPassword!,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutRedirectsBackToLoginPage">
+                  </a> <!-- verifyLogoutRedirectsBackToLoginPage -->
+                  <span class="method-name">verifyLogoutRedirectsBackToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Internet_Hackathon_Suite-class-passed -->
+        </div> <!-- panel Internet_Hackathon_Suite -->
+        <div panel-name="test-xml-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\eclipse\eclipse\InternetBot\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Internet Hackathon Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.srm.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Authentication Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.tests.AuthenticationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authentication Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Alert Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.tests.AlertTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alert Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Checkbox and Dropdown Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.tests.CheckboxDropdownTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkbox and Dropdown Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Upload Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.tests.FileUploadTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upload Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Dynamic Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.tests.DynamicLoadingTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dynamic Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Broken Elements Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.tests.BrokenElementsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Broken Elements Tests --&gt;
+&lt;/suite&gt; &lt;!-- Internet Hackathon Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Internet Hackathon Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Authentication Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Alert Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkbox and Dropdown Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Upload Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Dynamic Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Broken Elements Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Internet Hackathon Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Internet Hackathon Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Internet_Hackathon_Suite');
+function tableData_Internet_Hackathon_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyDynamicLoadingDisplaysExpectedMessage')
+data.setCell(0, 2, 'com.srm.tests.DynamicLoadingTests')
+data.setCell(0, 3, 11257);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHoverInteractionRevealsCaption')
+data.setCell(1, 2, 'com.srm.tests.CheckboxDropdownTests')
+data.setCell(1, 3, 8211);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyDisappearingElementMenuLoadsAfterRefresh')
+data.setCell(2, 2, 'com.srm.tests.DynamicLoadingTests')
+data.setCell(2, 3, 7869);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyFormAuthenticationScenarios')
+data.setCell(3, 2, 'com.srm.tests.AuthenticationTests')
+data.setCell(3, 3, 7640);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyJsConfirmDismissShowsDismissedMessage')
+data.setCell(4, 2, 'com.srm.tests.AlertTests')
+data.setCell(4, 3, 7173);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCheckboxOneCanBeCheckedAndUnchecked')
+data.setCell(5, 2, 'com.srm.tests.CheckboxDropdownTests')
+data.setCell(5, 3, 6530);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogoutRedirectsBackToLoginPage')
+data.setCell(6, 2, 'com.srm.tests.AuthenticationTests')
+data.setCell(6, 3, 6353);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyJsPromptAcceptsTextAndDisplaysIt')
+data.setCell(7, 2, 'com.srm.tests.AlertTests')
+data.setCell(7, 3, 6171);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyFormAuthenticationScenarios')
+data.setCell(8, 2, 'com.srm.tests.AuthenticationTests')
+data.setCell(8, 3, 5749);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCheckboxTwoCanBeToggledAndReverified')
+data.setCell(9, 2, 'com.srm.tests.CheckboxDropdownTests')
+data.setCell(9, 3, 5446);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyUploadPageTitleAndFormVisibility')
+data.setCell(10, 2, 'com.srm.tests.FileUploadTests')
+data.setCell(10, 3, 4935);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyDropdownSelectionAndOptionCount')
+data.setCell(11, 2, 'com.srm.tests.CheckboxDropdownTests')
+data.setCell(11, 3, 4804);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyUnsupportedFileTypeIsHandledGracefully')
+data.setCell(12, 2, 'com.srm.tests.FileUploadTests')
+data.setCell(12, 3, 4603);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyJsAlertAcceptsAndShowsSuccessMessage')
+data.setCell(13, 2, 'com.srm.tests.AlertTests')
+data.setCell(13, 3, 4602);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyResultTextUpdatesAcrossDifferentAlertTypes')
+data.setCell(14, 2, 'com.srm.tests.AlertTests')
+data.setCell(14, 3, 4587);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyBrokenImagesCanBeDetected')
+data.setCell(15, 2, 'com.srm.tests.BrokenElementsTests')
+data.setCell(15, 3, 4427);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyDynamicContentSectionLoadsContentBlocks')
+data.setCell(16, 2, 'com.srm.tests.DynamicLoadingTests')
+data.setCell(16, 3, 4426);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySupportedFileUploadDisplaysUploadedFilename')
+data.setCell(17, 2, 'com.srm.tests.FileUploadTests')
+data.setCell(17, 3, 4319);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyBasicAuthenticationWorks')
+data.setCell(18, 2, 'com.srm.tests.AuthenticationTests')
+data.setCell(18, 3, 4198);
+window.suiteTableData['Internet_Hackathon_Suite']= { tableData: data, tableDiv: 'times-div-Internet_Hackathon_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Internet_Hackathon_Suite">
+              </div> <!-- times-div-Internet_Hackathon_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Internet Hackathon Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Internet_Hackathon_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyBasicAuthenticationWorks</span>
+                <span class="method-start">4729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyJsAlertAcceptsAndShowsSuccessMessage</span>
+                <span class="method-start">4735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9305 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9797 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFormAuthenticationScenarios(tomsmith, SuperSecretPassword!, true)</span>
+                <span class="method-start">10987 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyJsConfirmDismissShowsDismissedMessage</span>
+                <span class="method-start">11271 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFormAuthenticationScenarios(invaliduser, InvalidPassword!, false)</span>
+                <span class="method-start">18078 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJsPromptAcceptsTextAndDisplaysIt</span>
+                <span class="method-start">19652 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25722 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25827 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25984 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26120 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutRedirectsBackToLoginPage</span>
+                <span class="method-start">27587 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AlertTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyResultTextUpdatesAcrossDifferentAlertTypes</span>
+                <span class="method-start">27607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32196 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33035 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33952 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckboxOneCanBeCheckedAndUnchecked</span>
+                <span class="method-start">34201 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.FileUploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySupportedFileUploadDisplaysUploadedFilename</span>
+                <span class="method-start">35380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40344 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41010 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.FileUploadTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsupportedFileTypeIsHandledGracefully</span>
+                <span class="method-start">41863 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckboxTwoCanBeToggledAndReverified</span>
+                <span class="method-start">42393 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.FileUploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUploadPageTitleAndFormVisibility</span>
+                <span class="method-start">47773 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">48089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropdownSelectionAndOptionCount</span>
+                <span class="method-start">49127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.FileUploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52709 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.DynamicLoadingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53001 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53933 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.DynamicLoadingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDisappearingElementMenuLoadsAfterRefresh</span>
+                <span class="method-start">54197 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHoverInteractionRevealsCaption</span>
+                <span class="method-start">55299 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.DynamicLoadingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62067 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDynamicContentSectionLoadsContentBlocks</span>
+                <span class="method-start">63362 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.CheckboxDropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63512 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.BrokenElementsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBrokenImagesCanBeDetected</span>
+                <span class="method-start">64756 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.DynamicLoadingTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67933 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68126 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.BrokenElementsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69185 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.tests.DynamicLoadingTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDynamicLoadingDisplaysExpectedMessage</span>
+                <span class="method-start">69304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80561 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

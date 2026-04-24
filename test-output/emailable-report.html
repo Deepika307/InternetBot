@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Internet Hackathon Suite</th></tr>
+<tr><td><a href="#t0">Alert Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">33,059</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Authentication Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">34,984</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Upload Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">18,519</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Checkbox and Dropdown Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">30,689</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Broken Elements Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,686</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Dynamic Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,860</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">17</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">150,797</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Internet Hackathon Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Alert Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.srm.tests.AlertTests</td><td><a href="#m0">verifyJsAlertAcceptsAndShowsSuccessMessage</a></td><td rowspan="1">1777041462724</td><td rowspan="1">4602</td></tr><tr class="passedeven"><td><a href="#m1">verifyJsConfirmDismissShowsDismissedMessage</a></td><td rowspan="1">1777041469260</td><td rowspan="1">7173</td></tr><tr class="passedeven"><td><a href="#m2">verifyJsPromptAcceptsTextAndDisplaysIt</a></td><td rowspan="1">1777041477641</td><td rowspan="1">6171</td></tr><tr class="passedeven"><td><a href="#m3">verifyResultTextUpdatesAcrossDifferentAlertTypes</a></td><td rowspan="1">1777041485596</td><td rowspan="1">4587</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Authentication Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.srm.tests.AuthenticationTests</td><td><a href="#m4">verifyBasicAuthenticationWorks</a></td><td rowspan="1">1777041462718</td><td rowspan="1">4198</td></tr><tr class="passedeven"><td><a href="#m5">verifyFormAuthenticationScenarios</a></td><td rowspan="2">1777041476067</td><td rowspan="2">7640</td></tr><tr class="passedeven"><td><a href="#m6">verifyFormAuthenticationScenarios</a></td></tr><tr class="passedeven"><td><a href="#m7">verifyLogoutRedirectsBackToLoginPage</a></td><td rowspan="1">1777041485576</td><td rowspan="1">6353</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Upload Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.srm.tests.FileUploadTests</td><td><a href="#m8">verifySupportedFileUploadDisplaysUploadedFilename</a></td><td rowspan="1">1777041493369</td><td rowspan="1">4319</td></tr><tr><th colspan="4">Upload Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.srm.tests.FileUploadTests</td><td><a href="#m9">verifyUnsupportedFileTypeIsHandledGracefully</a></td><td rowspan="1">1777041499852</td><td rowspan="1">4603</td></tr><tr class="passedeven"><td><a href="#m10">verifyUploadPageTitleAndFormVisibility</a></td><td rowspan="1">1777041505762</td><td rowspan="1">4935</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Checkbox and Dropdown Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.srm.tests.CheckboxDropdownTests</td><td><a href="#m11">verifyCheckboxOneCanBeCheckedAndUnchecked</a></td><td rowspan="1">1777041492190</td><td rowspan="1">6530</td></tr><tr class="passedeven"><td><a href="#m12">verifyCheckboxTwoCanBeToggledAndReverified</a></td><td rowspan="1">1777041500382</td><td rowspan="1">5446</td></tr><tr class="passedeven"><td><a href="#m13">verifyDropdownSelectionAndOptionCount</a></td><td rowspan="1">1777041507116</td><td rowspan="1">4804</td></tr><tr class="passedeven"><td><a href="#m14">verifyHoverInteractionRevealsCaption</a></td><td rowspan="1">1777041513288</td><td rowspan="1">8211</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Broken Elements Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.srm.tests.BrokenElementsTests</td><td><a href="#m15">verifyBrokenImagesCanBeDetected</a></td><td rowspan="1">1777041522745</td><td rowspan="1">4427</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Dynamic Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.srm.tests.DynamicLoadingTests</td><td><a href="#m16">verifyDynamicContentSectionLoadsContentBlocks</a></td><td rowspan="1">1777041521351</td><td rowspan="1">4426</td></tr><tr><th colspan="4">Dynamic Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.srm.tests.DynamicLoadingTests</td><td><a href="#m17">verifyDisappearingElementMenuLoadsAfterRefresh</a></td><td rowspan="1">1777041512186</td><td rowspan="1">7869</td></tr><tr class="passedeven"><td><a href="#m18">verifyDynamicLoadingDisplaysExpectedMessage</a></td><td rowspan="1">1777041527293</td><td rowspan="1">11257</td></tr></tbody>
+</table>
+<h2>Alert Tests</h2><h3 id="m0">com.srm.tests.AlertTests#verifyJsAlertAcceptsAndShowsSuccessMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.srm.tests.AlertTests#verifyJsConfirmDismissShowsDismissedMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.srm.tests.AlertTests#verifyJsPromptAcceptsTextAndDisplaysIt</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.srm.tests.AlertTests#verifyResultTextUpdatesAcrossDifferentAlertTypes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Authentication Tests</h2><h3 id="m4">com.srm.tests.AuthenticationTests#verifyBasicAuthenticationWorks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.srm.tests.AuthenticationTests#verifyFormAuthenticationScenarios</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>invaliduser</td><td>InvalidPassword!</td><td>false</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.srm.tests.AuthenticationTests#verifyFormAuthenticationScenarios</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>tomsmith</td><td>SuperSecretPassword!</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.srm.tests.AuthenticationTests#verifyLogoutRedirectsBackToLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Upload Tests</h2><h3 id="m8">com.srm.tests.FileUploadTests#verifySupportedFileUploadDisplaysUploadedFilename</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=147.0.7727.103)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7769f8391dd91ab47a55f3ef97915190, clickElement {id=f.10767BDEB3A0F189047B721D5A8F4D3F.d.7947B59340F2A50303132479C6E49B3B.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.103, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56464}, goog:processID: 26204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56464/devtoo..., se:cdpVersion: 147.0.7727.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7769f8391dd91ab47a55f3ef97915190)] -&gt; id: file-upload]
+Session ID: 7769f8391dd91ab47a55f3ef97915190
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.srm.pages.BasePage.click(BasePage.java:46)
+	at com.srm.pages.UploadPage.uploadFile(UploadPage.java:33)
+	at com.srm.tests.FileUploadTests.verifySupportedFileUploadDisplaysUploadedFilename(FileUploadTests.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.srm.tests.FileUploadTests#verifyUnsupportedFileTypeIsHandledGracefully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.srm.tests.FileUploadTests#verifyUploadPageTitleAndFormVisibility</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Checkbox and Dropdown Tests</h2><h3 id="m11">com.srm.tests.CheckboxDropdownTests#verifyCheckboxOneCanBeCheckedAndUnchecked</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.srm.tests.CheckboxDropdownTests#verifyCheckboxTwoCanBeToggledAndReverified</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.srm.tests.CheckboxDropdownTests#verifyDropdownSelectionAndOptionCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.srm.tests.CheckboxDropdownTests#verifyHoverInteractionRevealsCaption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Broken Elements Tests</h2><h3 id="m15">com.srm.tests.BrokenElementsTests#verifyBrokenImagesCanBeDetected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Dynamic Tests</h2><h3 id="m16">com.srm.tests.DynamicLoadingTests#verifyDynamicContentSectionLoadsContentBlocks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Dynamic content page should render three content blocks. expected [3] but found [1]
+	at com.srm.tests.DynamicLoadingTests.verifyDynamicContentSectionLoadsContentBlocks(DynamicLoadingTests.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.srm.tests.DynamicLoadingTests#verifyDisappearingElementMenuLoadsAfterRefresh</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.srm.tests.DynamicLoadingTests#verifyDynamicLoadingDisplaysExpectedMessage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
